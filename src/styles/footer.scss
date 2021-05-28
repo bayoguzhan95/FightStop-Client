@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: ’Lato’, sans-serif ;
+    margin: 0; 
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background: linear-gradient(
+        90deg
+        , #1c1b1b 0%, #1a1717 100%);
+    color: #bbb;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+footer a:hover {
+    text-decoration: none;
+}
+.ft-title {
+    color: #e2133a  ;
+    font-weight:bold ;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.7rem;
+    padding-left: 65px;
+   
+}
+
+
+.container_footer {
+    flex: 1;    /* same as flex-grow: 1; */
+}
+
+.ft-main {
+    /* padding: 0.6rem 0.8rem; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-main-item {
+    padding: 1rem;
+    min-width: 12.5rem /*200px*/;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 0.6rem;
+  
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+ 
+ 
+  
+}
+
+.ft-legal {
+    
+    background-color: whitesmoke;
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+    text-align: center;
+    color: black;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
+
+
+
+
+.text_font_footer{
+    font-size: 20px;
+   padding-left: 20px;
+   padding-top: -15px !important;
+   font-weight: 500;
+   color: white;
+ 
+   
+}
+
+.text_font_footer:hover{
+    color: #3e80b9;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+
+.adress_title{
+    padding-left: 50px !important;
+    
+}
+
+.adress2{
+    padding-left: 50px !important;
+    font-weight: 500;
+}
+
+
+.footer_top{
+    font-size: 40px !important;
+    color: #727272 !important;
+}
+
+.social-icon{
+    color: white;
+    font-size: 30px;
+}

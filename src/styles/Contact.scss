@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+.Contact_header{
+    text-align: center;
+   
+    font-size: 40px;
+    padding-top: 20px;
+    color: #e2133a ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 600 ;
+
+
+}
+
+.main_contact7{
+    position: relative;
+    width: 100%;
+    padding-top: 100x;
+    padding-bottom: 100px;
+    color: white;
+    background-color: white;
+    margin-top: 20px;
+}
+ 
+    .contact7 .baslik p{
+        font-size: 14px;
+        color:#fc983c;
+        font-weight: 600;
+    }
+    
+    .contact7 .baslik h3{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 50px;
+        color: black;
+    }
+    
+    .contact7 article{
+       padding-left: 50px;
+    }
+    
+    .contact7 article p.icerik{
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 500;
+        color:black;
+        
+    }
+    .contact7 article .btn{
+        background-color: #e2133a;
+        border:none;
+        color:white;
+        margin-top: 20px;
+        padding: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        
+    }
+
+    .contact7 article .btn:hover{
+        background-color: #171D29 !important;
+        color: white;
+        
+    }
+
+  
+    
+    @media only screen and (max-width:768px){
+        .contact7{
+            padding-top: 20px;
+            
+        
+        }
+        .contact_us_css h6{
+            font-size: 19px !important ;
+            letter-spacing: 1px !important;
+        }
+
+        .textArea_css{
+            height: 150px !important;
+        }
+       
+    
+    }
+    
+    .contact_us_css{
+        padding-top: 10px;
+        padding-left: 10px;
+        float: right !important;
+
+    }
+
+    @media screen and (min-width:769px )  {
+        .contact_us_css{
+            padding-top: 10px;
+            padding-left: 100px;
+            float: right !important;
+    
+        }
+        
+      }
+
+      
+  
+
+    .contact_us_css h6{
+        line-height: 50px;
+        font-size: 26px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	    font-weight: 400 !important ;
+        padding-top: 20px !important;
+        color: black;
+        letter-spacing: 1px;
+      
+    }
+    
+
+    .contact_us_css h6 b{
+        color:#e2133a ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        
+    }
+
+    /* .contact_us_css h6{
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+	    font-weight: 500 ;
+    } */
+
+
+.form-group{
+    padding-top: 10px;
+}
+
+
+.form-group label{
+    color: black;
+}
+
+.Map{
+    text-align: center;
+    width:90%;
+    margin: auto;
+}

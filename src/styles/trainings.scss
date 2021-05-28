@@ -1,0 +1,50 @@
+.page-section {
+  position: relative;
+  width: 100%;
+  padding-top: 100x;
+  padding-bottom: 100px;
+  color: white;
+  background-color: white;
+}
+
+.portfolio-item img {
+  height: 250px !important;
+  max-height: 250px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  transition: transform .5s ease;
+}
+
+.portfolio-item{
+  transition: transform .5s ease;
+}
+
+.portfolio-item:hover{
+  transform: scale(1.1);
+}
+
+
+
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: whitesmoke !important;
+  border-radius: 5px;
+
+}
+
+.lessonsPadding {
+  padding-top: 40px;
+}
+
+
+.portfolio-caption-heading h4 {
+  margin-bottom: 0 !important;
+  font-weight: 400 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+
+
+}
+
+

@@ -1,0 +1,111 @@
+.main_hygiene{
+	position: relative;
+    width: 100%;
+    padding-top: 100x;
+    padding-bottom: 100px;
+    color: white;
+   background-color: white;
+}
+
+.hygine_css h1 {
+    text-align: center;
+	font-weight: 600;
+	color: #e2133a;
+}
+
+.hygine_css ul {
+	margin-top: 50px !important;
+}
+
+.hygine_css ul li{
+   
+    padding: 10px;
+    font-size: 24px;
+   
+	color: black;
+	list-style-type: circle;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 500 ;
+}
+
+
+.bolum9{
+	
+	text-align: center;
+	margin-top: 100px;
+	
+}
+.bolum9 p{
+	font-size: 12px;
+	color: #fc983c;
+	font-weight: 600;
+}
+
+.bolum9 h3{
+    font-size: 40px;
+    font-weight: 600;
+    /* margin-bottom: 100px; */
+	padding-top: 20px;
+	color: white;
+}
+.bolum9 .etiket{
+	width:100% !important;
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
+	padding-bottom: 20px !important;
+}
+.bolum9 .etiket .img{
+	width: 100% !important;
+	height: 250px;
+	position: relative;
+	background-size :cover !important;
+	background-position: center center !important;
+	border-radius: 20px;
+
+	
+}
+
+.bolum9 .fiyat p{
+	padding: 10px;
+	margin-bottom: 0;
+	
+}
+
+
+.bolum9 .col-md-6.col-lg-3{
+	margin-bottom: 20px;
+}
+
+
+.bolum9 .etiket h5{
+	margin-top: 30px;
+	font-size: 20px;
+	color: #000;
+}
+.bolum9 .etiket p{
+	color: rgba(0,0,0,0.5)
+}
+.bolum9 .etiket .butonlar{
+	display: flex;
+	justify-content: space-around;
+}
+.bolum9 .etiket .butonlar .btn{
+	width: 45%;
+	color:#000;
+	font-size: 14px;
+	transition: 0.2s;
+}
+.bolum9 .etiket .butonlar .btn:hover{
+    background: #fc983c;
+	color: white;
+	font-weight: 600;
+}
+
+
+.first1 { background: url(../images/hygiene/1.png);}
+.second1 { background: url(../images/hygiene/2.png);}
+.third1 { background: url(../images/hygiene/3.png);}
+.fourth1 { background: url(../images/hygiene/4.png);}
+.fifth1 { background: url(../images/hygiene/5.png);}
+.six1 { background: url(../images/hygiene/6.png);}

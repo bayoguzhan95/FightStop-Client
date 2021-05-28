@@ -1,0 +1,141 @@
+.page_section_trainers {
+  height: 100%;
+}
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.team-member h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: black;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team-member h4:hover {
+  color: #f38620 !important;
+  opacity: 0.5;
+}
+
+#team {
+  position: relative;
+  width: 100%;
+  padding-top: 100x;
+  padding-bottom: 100px;
+  color: white !important;
+  background-color: white;
+}
+
+.trainer_columnLeft {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+
+  align-items: flex-start;
+  line-height: 1.4;
+  padding: 1rem 2rem;
+}
+
+.trainer_columnLeft h1 {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #e2133a;
+}
+
+.trainer_columnLeft p {
+  margin-bottom: 2rem;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.trainer_columnRight {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainer_columnRight img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+.trainer_container {
+  padding: 3rem calc((100vw - 1300px) / 2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 800px;
+}
+.trainer_section {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 610px) and (max-width: 889px) {
+  .trainer_container {
+    grid-template-columns: 1fr;
+  }
+  .trainer_columnRight img {
+    margin-top: -250px;
+  }
+}
+
+@media screen and (min-width: 483px) and (max-width: 610px) {
+  .trainer_container {
+    grid-template-columns: 1fr;
+  }
+  .trainer_columnRight img {
+    margin-top: -250px;
+    
+  }
+
+  .trainer_columnLeft p {
+  font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 343px) and (max-width: 483px) {
+  .trainer_container {
+    grid-template-columns: 1fr;
+  }
+  .trainer_columnRight img {
+    margin-top: -170px;
+    
+  }
+
+  .trainer_columnLeft p {
+  font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 343px) {
+  .trainer_container {
+    grid-template-columns: 1fr;
+  }
+  .trainer_columnRight img {
+    margin-top: -170px;
+    
+  }
+
+  .trainer_columnLeft p {
+  font-size: 14px;
+  }
+}
+
+

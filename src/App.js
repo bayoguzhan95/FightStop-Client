@@ -54,7 +54,7 @@ const App = () => {
       if (user) {
         const idTokenResult = await user.getIdTokenResult();
         // console.log('user', user);
-        // Userimizin sahip olduğu özellikleri alıyoruz server tarafından refresh yapsak dahi kalicak.
+       
         currentUser(idTokenResult.token)
           .then((res) => {
             dispatch({
